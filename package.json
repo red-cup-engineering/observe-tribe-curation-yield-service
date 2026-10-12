@@ -1,0 +1,31 @@
+{
+  "name": "@red-cup-engineering/observe-tribe-curation-yield-service",
+  "version": "0.1.0",
+  "description": "Two-node observation of Hive curation yield, candidate posts, curation price, and voting mana for bounded curation planning.",
+  "type": "module",
+  "private": false,
+  "license": "UNLICENSED",
+  "exports": "./scripts/observe-tribe-curation-yield.mjs",
+  "bin": {
+    "observe-tribe-curation-yield": "scripts/observe-tribe-curation-yield.mjs"
+  },
+  "files": [
+    "scripts",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "@red-cup-engineering/metrologic": "workspace:*",
+    "@red-cup-engineering/hive-blockchain-client-service": "workspace:*",
+    "@red-cup-engineering/javascript-node-services-section": "workspace:*",
+    "@red-cup-engineering/exact-number-data-service": "workspace:*"
+  },
+  "scripts": {
+    "check": "node --check scripts/observe-tribe-curation-yield.mjs",
+    "test": "node --test test/*.test.mjs",
+    "pack:dry-run": "npm pack --dry-run --ignore-scripts"
+  },
+  "engines": {
+    "node": ">=24.2.0"
+  }
+}
