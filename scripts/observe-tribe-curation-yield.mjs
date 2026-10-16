@@ -10,7 +10,7 @@ import {
 import { currentVotingMana, effectiveVestingShares } from "@red-cup-engineering/hive-blockchain-client-service/rewards.mjs";
 import { HiveClient } from "@red-cup-engineering/hive-blockchain-client-service";
 import { EngineClient } from "@red-cup-engineering/hive-blockchain-client-service/engine.mjs";
-import { runJavascriptNodeOperation } from "@red-cup-engineering/javascript-node-operation-engineering-services-section/operation";
+import { runJavascriptNodeOperation } from "@red-cup-engineering/javascript-node-operation-service";
 
 const DEFAULT_NODES = Object.freeze(["https://api.hive.blog", "https://api.openhive.network"]);
 const DEFAULT_HIVE_ENGINE_NODE = "https://api.hive-engine.com/rpc";
