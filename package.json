@@ -4,8 +4,7 @@
   "description": "Two-node observation of Hive curation yield, candidate posts, curation price, and voting mana for bounded curation planning.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/computer-systems-engineering-services-section.git",
-    "directory": "services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/curation-services-section/services/observe-tribe-curation-yield-service"
+    "url": "git+https://github.com/red-cup-engineering/observe-tribe-curation-yield-service.git"
   },
   "type": "module",
   "private": false,
