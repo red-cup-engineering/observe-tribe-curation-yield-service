@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/observe-tribe-curation-yield-service",
-  "version": "0.1.2",
+  "version": "0.1.3-dev.1",
   "description": "Two-node observation of Hive curation yield, candidate posts, curation price, and voting mana for bounded curation planning.",
   "repository": {
     "type": "git",
